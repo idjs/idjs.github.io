@@ -1,0 +1,11 @@
+machine:
+  node:
+    version: v6.1.0
+deployment:
+  pages:
+    branch: development
+    commands:
+      - hexo deploy
+dependencies:
+  post:
+    - npm install -g hexo
