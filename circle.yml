@@ -5,7 +5,4 @@ deployment:
   pages:
     branch: development
     commands:
-      - hexo deploy
-dependencies:
-  post:
-    - npm install -g hexo
+      - npm run deploy
