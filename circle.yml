@@ -5,4 +5,4 @@ deployment:
   pages:
     branch: development
     commands:
-      - ./node_modules/.bin/hexo deploy
+      - npm run deploy
