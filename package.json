@@ -6,6 +6,7 @@
     "version": "3.2.2"
   },
   "scripts": {
+    "test": "echo no test",
     "server": "hexo server",
     "deploy": "hexo deploy"
   },
