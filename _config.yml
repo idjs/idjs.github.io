@@ -71,3 +71,6 @@ deploy:
   type: git
   repo: https://github.com/idjs/idjs.github.io
   branch: master
+  name: idjs
+  email: dev@id.js.org
+  message: 'Site updated: {{ now(\'YYYY-MM-DD HH:mm:ss\') }} [ci skip]'
