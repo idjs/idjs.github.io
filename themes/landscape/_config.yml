@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  Slack: https://idjs-slack.herokuapp.com/
 rss: /atom.xml
 
 # Content
