@@ -9,6 +9,10 @@
     "test": "echo \"Ok: no test for now\" && exit 0",
     "deploy": "hexo deploy"
   },
+  "scripts": {
+    "server": "hexo server",
+    "deploy": "hexo deploy"
+  },
   "dependencies": {
     "hexo": "^3.2",
     "hexo-deployer-git": "^0.2",
