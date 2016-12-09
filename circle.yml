@@ -1,0 +1,8 @@
+machine:
+  node:
+    version: v6.9.2
+deployment:
+  pages:
+    branch: development
+    commands:
+      - npm run deploy
